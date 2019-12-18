@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Gelasio|Lato|M+PLUS+1p&display=swap");
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+body {
+	font-family: 'Gelasio', serif;
+	font-size: 20px;
+	margin: 0px;
+}
+
+
+h1, h2, h3 {
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+}
+
+.card {
+	font-size: 24px;
+	border-radius: 6px;
+	padding: 30px;
+	display: flex;
+	align-items:center;
+	justify-content: space-between;
+	box-shadow: 0px 10px 30px #FED2A9
+}
